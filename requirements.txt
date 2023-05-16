@@ -1,0 +1,6 @@
+Django==4.2.1
+djangorestframework==3.14.0
+Markdown==3.4.3
+pyyaml==6.0
+uritemplate=4.1.1
+pytest-django==4.5.2
