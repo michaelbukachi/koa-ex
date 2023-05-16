@@ -13,6 +13,11 @@ python manage.py runserver
 ```
 Access doc at http://127.0.0.1:8000/redoc/
 
+Sample request:
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"data":"...."}' http://127.0.0.1:8000/api/v1/grid/
+```
+
 Run tests with
 ```bash
 pytest
